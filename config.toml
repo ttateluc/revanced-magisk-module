@@ -7,4 +7,6 @@ build-mindetach-module = true
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
-excluded-patches = "exclusive-audio-playback vanced-microg-support"
+apkmirror-arch = "arm64-v8a"
+included-patches = "background-play bypass-certificate-checks codecs-unlock music-video-ads upgrade-button-remover"
+exclusive-patches = true
