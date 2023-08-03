@@ -5,11 +5,6 @@ build-mindetach-module = true
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
-[YouTube]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-included-patches = "client-spoof comments disable-shorts-on-startup disable-fullscreen-panels disable-zoom-haptics external-downloads hdr-auto-brightness hide-shorts-components hide-ads minimized-playback open-links-externally playback-speed sponsorblock video-ads"
-exclusive-patches = true
-
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 excluded-patches = "exclusive-audio-playback vanced-microg-support"
